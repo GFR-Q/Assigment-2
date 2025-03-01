@@ -6,11 +6,11 @@ import java.util.ArrayList;
 import java.util.List;
 
 public class TaskRepository {
-    private List<Task> tasks= new ArrayList<>();
-    public List<Task> addTask() {
-        tasks.add(tasks);
+    private List<String> tasks= new ArrayList<>();
+    public void addTask(String task) {
+        tasks.add(task);
     }
-    public List<Task> getTasks() {
+    public List<String> getTasks() {
         return tasks;
     }
 }

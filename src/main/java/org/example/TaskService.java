@@ -5,6 +5,6 @@ import org.springframework.scheduling.config.Task;
 import java.util.List;
 
 public interface TaskService {
-    void addTask(Task task);
-    List<Task> getTasks();
+    void addTask(String task);
+    List<String> getTasks();
 }
