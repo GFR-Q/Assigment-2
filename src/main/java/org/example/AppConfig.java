@@ -6,7 +6,7 @@ import org.springframework.context.annotation.Configuration;
 import org.springframework.context.annotation.Lazy;
 
 @Configuration
-@ComponentScan("org.example")
+@ComponentScan(basePackages = "org.example")
 public class AppConfig {
     @Bean
     public StartText StartText() {
