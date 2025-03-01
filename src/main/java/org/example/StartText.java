@@ -5,6 +5,6 @@ import org.springframework.stereotype.Component;
 @Component
 public class StartText {
     public StartText() {
-        System.out.println("--------Tasks List--------");
+        System.out.println("---------Tasks List---------");
     }
 }
